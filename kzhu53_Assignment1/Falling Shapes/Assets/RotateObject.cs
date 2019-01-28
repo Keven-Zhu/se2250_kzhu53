@@ -14,10 +14,12 @@ public class RotateObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            transform.RotateAround(Vector3.zero, Vector3.left, Time.deltaTime * 90f);
-        }
+
+    }
+
+    void OnMouseDown()
+    {
+        transform.RotateAround(Vector3.zero, Vector3.left, Time.deltaTime * 90f);
     }
 
 }
