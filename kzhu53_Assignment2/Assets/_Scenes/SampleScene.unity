@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cube: {fileID: 7508946050846542090, guid: 9121cbf983fb3bf45b312650c3566dd3, type: 3}
-  numCubes: 8
+  numCubes: 10
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
